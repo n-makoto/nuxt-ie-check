@@ -7,6 +7,7 @@
       </div>
       <v-card>
         <v-card-title class="headline">
+          <span class="green">Test</span>
           Welcome to the Vuetify + Nuxt.js template
         </v-card-title>
         <v-card-text>
@@ -76,7 +77,7 @@
   </v-row>
 </template>
 
-<script>
+<script lang="ts">
 import Logo from '~/components/Logo.vue'
 import VuetifyLogo from '~/components/VuetifyLogo.vue'
 
@@ -87,9 +88,15 @@ export default {
   },
   created () {
     const ieCheck = () => {
-      alert(Array.from('InternetExplorer'))
+      alert(Array.from('TypeScript??'))
     }
     ieCheck()
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.green {
+  color: $concrete;
+}
+</style>
