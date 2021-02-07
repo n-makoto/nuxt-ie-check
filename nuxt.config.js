@@ -41,8 +41,8 @@ export default {
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/vuetify
-    '@nuxtjs/vuetify'
-    // '@nuxtjs/style-resources'
+    '@nuxtjs/vuetify',
+    '@nuxtjs/style-resources'
   ],
 
   styleResources: {
