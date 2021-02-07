@@ -97,6 +97,6 @@ export default {
 
 <style lang="scss" scoped>
 .green {
-  color: $concrete;
+  color: $cheek;
 }
 </style>
