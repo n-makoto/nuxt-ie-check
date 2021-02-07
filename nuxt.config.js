@@ -41,13 +41,14 @@ export default {
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/vuetify
-    '@nuxtjs/vuetify',
+    '@nuxtjs/vuetify'
     // '@nuxtjs/style-resources'
   ],
 
   styleResources: {
     scss: [
-      '~/assets/styles/_index.scss'
+      // '~/assets/styles/_index.scss',
+      '~/assets/styles/_colors.scss'
     ]
   },
 
